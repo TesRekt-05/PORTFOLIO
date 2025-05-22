@@ -9,7 +9,7 @@ const ParallaxBackground = () => {
     const planetx = useTransform(x, [0, 0.5], ["0%", "20%"]);
     return (
         <section className="absolute inset-0 bg-black/40">
-            <div className="relative h-screen overflow-y-hidden">
+            <div className="relative h-screen overflow-y-hidden hide-scrollbar">
                 {/* background sky */}
                 <div
                     className="absolute inset-0 w-full h-screen -z-50"
