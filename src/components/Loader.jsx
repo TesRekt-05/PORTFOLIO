@@ -4,7 +4,7 @@ const Loader = () => {
 
     const {progress}= useProgress();
 
-  return  <Html centre>{progress}% loaded </Html>
+  return  <Html centre classname="text-xl font-normal text-centre">{progress}% loaded </Html>
 };
 
 export default Loader
