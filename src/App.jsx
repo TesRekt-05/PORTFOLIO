@@ -12,13 +12,12 @@ const App = () => {
     <div className="container mx-auto max-w-7xl">
       <Navbar />
       <Hero />
-
       <About />
-      <Projects />
+      {/* <Projects />
       <Experiences />
       <Testimonial />
       <Contact />
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 };
